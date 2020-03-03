@@ -7,7 +7,7 @@
     // thành công
     echo 'Kết nối thành công!';
     // //dường dẫn cần lấy tin
-    $url = 'https://vnexpress.net';
+    $url = 'https://vnexpress.net/the-thao';
     $html = file_get_html($url);    
     // //tìm theo thẻ
     foreach ($noidung = $html->find('.title_news a') as $e) {
